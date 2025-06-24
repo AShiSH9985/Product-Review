@@ -16,24 +16,78 @@ function Home() {
        </div>
     </nav>
 
-    <div className='h-64 w-full bg-green-900 bg-cover opacity-100 flex flex-col items-center justify-center'>
+    <div className='h-64 w-full bg-[url(./images/image1.png)] bg-cover flex flex-col items-center justify-center'>
+    <div className='bg-green-900 bg-opacity-50 h-full w-full flex flex-col items-center justify-center'>
+
         <h1 className='text-4xl text-white font-bold m-2'>Know better, choose better.</h1>
-        <h1 className='text-white'>Reviews by people like you</h1>
+        <h1 className='text-white m-4'>Reviews by people like you</h1>
         <input type="text" className='h-12 w-3/5 m-2 p-4 rounded-md text-black'  placeholder='What are you looking for?'/>
+    </div>
     </div>
 
     <div className='h-64 w-full border-b-2 flex flex-col items-center justify-center'>
         <h1 className='font-bold m-2 text-xl'>Your opinion matters</h1>
-        <p className='text-xl m-2 '>ProductReview.com.au is a community of consumers helping each other make better purchasing decisions.</p>
+        <p className=' m-2 '>ProductReview.com.au is a community of consumers helping each other make better purchasing decisions.</p>
         <button className='bg-green-900 h-12 w-1/2 m-8 rounded-md text-white text-xl'>Write a review</button>
     </div>
 
     <div className='h-64 w-full border-b-2 flex flex-col items-center justify-center'>
       <h1 className='font-bold text-2xl'>The 2025 ProductReview.com.au Awards</h1>
-      <p className='text-xl m-2 '>Discover Australia's best products & services of the year.</p>
+      <h1 className=' m-4 '>Discover Australia's best products & services of the year.</h1>
       <button className='bg-[#80ba27] h-12 w-1/2 text-xl rounded-md' >See the winners</button>
     </div>
-    <div className='h-80'></div>
+    <div className='h-80 w-full border-b-2 flex flex-col items-center'>
+      <h1 className='font-bold text-xl' >Popular Categories </h1>
+      <h1 className='m-2'>Browse our most popular categories</h1>
+
+    <div className="w-full m-8 p-0 flex flex-wrap justify-between ">
+        <div className='h-40  w-[24%] bg-[url(./images/cars.png)] m-1 bg-cover flex flex-col items-center justify-center'>
+            <div className='bg-green-900 bg-opacity-75 h-full w-full flex flex-col items-center justify-center'>
+                <h1 className='text-white font-semibold text-2xl'>Cars</h1>
+            </div>
+        </div>
+        <div className='h-40  w-[24%] bg-[url(./images/coffee.jpeg)] m-1 bg-cover flex flex-col items-center justify-center'>
+            <div className='bg-green-900 bg-opacity-75 h-full w-full flex flex-col items-center justify-center'>
+              <h1 className='text-white font-semibold text-2xl'>Coffee Machines</h1>
+            </div>
+        </div>
+        <div className='h-40  w-[24%] bg-[url(./images/diet.jpeg)] m-1 bg-cover flex flex-col items-center justify-center'>
+            <div className='bg-green-900 bg-opacity-75 h-full w-full flex flex-col items-center justify-center'>
+              <h1 className='text-white font-semibold text-2xl'>Diet & Weight Loss Products</h1>
+            </div>
+        </div>
+        <div className='h-40  w-[24%] bg-[url(./images/home_builder.jpeg)] m-1 bg-cover flex flex-col items-center justify-center'>
+            <div className='bg-green-900 bg-opacity-75 h-full w-full flex flex-col items-center justify-center'>
+              <h1 className='text-white font-semibold text-2xl'>Home Builders</h1>
+            </div>
+        </div>
+        <div className='h-40  w-[24%] bg-[url(./images/prams.jpeg)] m-1 bg-cover flex flex-col items-center justify-center'>
+            <div className='bg-green-900 bg-opacity-75 h-full w-full flex flex-col items-center justify-center'>
+              <h1 className='text-white font-semibold text-2xl'>Prams & Strollers</h1>
+            </div>
+        </div>
+        <div className='h-40 w-[24%] bg-[url(./images/tyre.jpeg)] m-1 bg-cover flex flex-col items-center justify-center'>
+            <div className='bg-green-900 bg-opacity-75 h-full w-full flex flex-col items-center justify-center'>
+              <h1 className='text-white font-semibold text-2xl'>Tyres</h1>
+            </div>
+        </div>
+        <div className='h-40  w-[24%] bg-[url(./images/vaccum_cleaner.jpeg)] m-1 bg-cover flex flex-col items-center justify-center'>
+            <div className='bg-green-900 bg-opacity-75 h-full w-full flex flex-col items-center justify-center'>
+              <h1 className='text-white font-semibold text-2xl'>Vaccum CLeaners</h1>
+            </div>
+        </div>
+        <div className='h-40  w-[24%] bg-[url(./images/washing_machine.jpeg)] m-1 bg-cover flex flex-col items-center justify-center'>
+            <div className='bg-green-900 bg-opacity-75 h-full w-full flex flex-col items-center justify-center'>
+              <h1 className='text-white font-semibold text-2xl'>Washing Machines</h1>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div className="bg-zinc-100 mt-32 h-32 w-full flex flex-col items-center justify-center">
+      <h1 className='text-black font-bold text-2xl'>Featured Reviews</h1>
+      <h1>Browse some of our latest reviews</h1>
+    </div>
 </>
   )
 }
