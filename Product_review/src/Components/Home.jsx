@@ -44,46 +44,68 @@ function Home() {
       <h1 className='m-2'>Browse our most popular categories</h1>
 
     <div className="w-full m-8 grid grid-cols-4 grid-rows-1 justify-between ">
+        <Link to="https://www.productreview.com.au/c/cars">
         <div className='h-40 w-[99%] bg-[url(./images/cars.png)] m-1 bg-cover flex flex-col items-center justify-center '>
             <div className='bg-green-900 bg-opacity-75 h-full w-full flex flex-col items-center justify-center'>
                 <h1 className='text-white font-semibold text-2xl'>Cars</h1>
             </div>
         </div>
-        <div className='h-40  w-[99%] bg-[url(./images/coffee.jpeg)] m-1 bg-cover flex flex-col items-center justify-center'>
+        </Link>
+        <Link to="https://www.productreview.com.au/c/coffee-machines">
+          <div className='h-40  w-[99%] bg-[url(./images/coffee.jpeg)] m-1 bg-cover flex flex-col items-center justify-center'>
             <div className='bg-green-900 bg-opacity-75 h-full w-full flex flex-col items-center justify-center'>
               <h1 className='text-white font-semibold text-2xl'>Coffee Machines</h1>
             </div>
         </div>
-        <div className='h-40  w-[99%] bg-[url(./images/diet.jpeg)] m-1 bg-cover flex flex-col items-center justify-center'>
-            <div className='bg-green-900 bg-opacity-75 h-full w-full flex flex-col items-center justify-center'>
-              <h1 className='text-white font-semibold text-2xl'>Diet & Weight Loss Products</h1>
-            </div>
-        </div>
-        <div className='h-40  w-[99%] bg-[url(./images/home_builder.jpeg)] m-1 bg-cover flex flex-col items-center justify-center'>
-            <div className='bg-green-900 bg-opacity-75 h-full w-full flex flex-col items-center justify-center'>
-              <h1 className='text-white font-semibold text-2xl'>Home Builders</h1>
-            </div>
-        </div>
-        <div className='h-40  w-[99%] bg-[url(./images/prams.jpeg)] m-1 bg-cover flex flex-col items-center justify-center'>
-            <div className='bg-green-900 bg-opacity-75 h-full w-full flex flex-col items-center justify-center'>
-              <h1 className='text-white font-semibold text-2xl'>Prams & Strollers</h1>
-            </div>
-        </div>
-        <div className='h-40 w-[99%] bg-[url(./images/tyre.jpeg)] m-1 bg-cover flex flex-col items-center justify-center'>
-            <div className='bg-green-900 bg-opacity-75 h-full w-full flex flex-col items-center justify-center'>
-              <h1 className='text-white font-semibold text-2xl'>Tyres</h1>
-            </div>
-        </div>
-        <div className='h-40  w-[99%] bg-[url(./images/vaccum_cleaner.jpeg)] m-1 bg-cover flex flex-col items-center justify-center'>
-            <div className='bg-green-900 bg-opacity-75 h-full w-full flex flex-col items-center justify-center'>
-              <h1 className='text-white font-semibold text-2xl'>Vaccum CLeaners</h1>
-            </div>
-        </div>
-        <div className='h-40  w-[99%] bg-[url(./images/washing_machine.jpeg)] m-1 bg-cover flex flex-col items-center justify-center'>
-            <div className='bg-green-900 bg-opacity-75 h-full w-full flex flex-col items-center justify-center'>
-              <h1 className='text-white font-semibold text-2xl'>Washing Machines</h1>
-            </div>
-        </div>
+        </Link>
+        
+        <Link to="https://www.productreview.com.au/c/diets-weight-loss">
+          <div className='h-40  w-[99%] bg-[url(./images/diet.jpeg)] m-1 bg-cover flex flex-col items-center justify-center'>
+              <div className='bg-green-900 bg-opacity-75 h-full w-full flex flex-col items-center justify-center'>
+                <h1 className='text-white font-semibold text-2xl'>Diet & Weight Loss Products</h1>
+              </div>
+          </div>
+        </Link>
+
+        <Link to="https://www.productreview.com.au/c/home-builders">
+          <div className='h-40  w-[99%] bg-[url(./images/home_builder.jpeg)] m-1 bg-cover flex flex-col items-center justify-center'>
+              <div className='bg-green-900 bg-opacity-75 h-full w-full flex flex-col items-center justify-center'>
+                <h1 className='text-white font-semibold text-2xl'>Home Builders</h1>
+              </div>
+          </div>
+        </Link>
+
+        <Link to=" https://www.productreview.com.au/c/prams-strollers">
+          <div className='h-40  w-[99%] bg-[url(./images/prams.jpeg)] m-1 bg-cover flex flex-col items-center justify-center'>
+              <div className='bg-green-900 bg-opacity-75 h-full w-full flex flex-col items-center justify-center'>
+                <h1 className='text-white font-semibold text-2xl'>Prams & Strollers</h1>
+              </div>
+          </div>
+        </Link>
+
+        <Link to="https://www.productreview.com.au/c/tyres">
+          <div className='h-40 w-[99%] bg-[url(./images/tyre.jpeg)] m-1 bg-cover flex flex-col items-center justify-center'>
+              <div className='bg-green-900 bg-opacity-75 h-full w-full flex flex-col items-center justify-center'>
+                <h1 className='text-white font-semibold text-2xl'>Tyres</h1>
+              </div>
+          </div>
+        </Link>
+
+        <Link to="https://www.productreview.com.au/c/vacuum-cleaners">
+          <div className='h-40  w-[99%] bg-[url(./images/vaccum_cleaner.jpeg)] m-1 bg-cover flex flex-col items-center justify-center'>
+              <div className='bg-green-900 bg-opacity-75 h-full w-full flex flex-col items-center justify-center'>
+                <h1 className='text-white font-semibold text-2xl'>Vaccum CLeaners</h1>
+              </div>
+          </div>
+        </Link>
+
+        <Link to="https://www.productreview.com.au/c/washing-machines ">
+          <div className='h-40  w-[99%] bg-[url(./images/washing_machine.jpeg)] m-1 bg-cover flex flex-col items-center justify-center'>
+              <div className='bg-green-900 bg-opacity-75 h-full w-full flex flex-col items-center justify-center'>
+                <h1 className='text-white font-semibold text-2xl'>Washing Machines</h1>
+              </div>
+          </div>
+        </Link>
     </div>
     </div>
 
