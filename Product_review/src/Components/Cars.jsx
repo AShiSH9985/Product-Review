@@ -8,10 +8,14 @@ import NexonImg from '../images/Cars/nexon.jpeg';
 import PunchImg from '../images/Cars/punch.jpeg';
 import BrezzaImg from '../images/Cars/brezza.jpeg';
 import FortunerImg from '../images/Cars/fortuner.jpeg';
+import Navbar from './Navbar';
+import Footer from './Footer';
 
 const Cars = () => {
   return (
         <>
+         <Navbar/> 
+
         <div className='w-full h-full bg-gray-900 grid grid-cols-3  gap-6 p-4 flex flex-col items-center pl-4 pr-4'>
             <div className="h-96 w-auto p-2 bg-white border-2 rounded-md flex flex-col items-center ">
                <img src={DefenderImg} alt="Defender" className='rounded-md h-64 w-full'/>
@@ -97,6 +101,7 @@ const Cars = () => {
 
 
         </div>
+        <Footer/>
     </>
   )
 }

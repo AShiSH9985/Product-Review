@@ -2,21 +2,14 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 import Cars from './Cars'
+import Navbar from './Navbar'
+import Footer from './Footer'
 
 function Home() {
   return (
 <>
 
-    <nav className="bg-[#80ba27] p-4 text-white h-16 w-full text-white flex items-center py-4 justify-between">
-        <div className='flex items-center justify-between w-1/2'>
-          <NavLink to='/' className='text-green-900 text-2xl'>Product_Review.com</NavLink>
-          <input type="text" className='h-10 w-96 p-4 rounded-md text-black' placeholder='Search'/>
-        </div>
-       <div className='w-1/2 flex items-center justify-end'>
-        <button className='bg-green-800 h-10 w-16 rounded-lg items-center m-2'>Sign in</button>
-        <button className='m-4 bg-green-900 h-10 w-32 rounded-md'>Write a review</button>
-       </div>
-    </nav>
+    <Navbar/>
 
     <div className='h-64 w-full bg-[url(./images/image1.png)] bg-cover flex flex-col items-center justify-center'>
     <div className='bg-green-900 bg-opacity-50 h-full w-full flex flex-col items-center justify-center'>
@@ -115,7 +108,7 @@ function Home() {
       <h1>Browse some of our latest reviews</h1>
     </div>
 
-    <footer>
+    <div>
           <div className="h-60 w-full p-4 border-b-2 flex flex-row justify-between">
             <div className='w-1/2 h-full pl-8'>
               <h1 className='text-green-400 font-semibold'>Get MORE INFO</h1>
@@ -138,16 +131,10 @@ function Home() {
             </div>
             </div>
           </div>
-          <div className="h-32 w-full p-4 border-b-2">
-            <p>© 2025 Product_Review.com Pty. Ltd. All Rights Reserved. General disclaimer:
-              All third party trademarks, images and copyrights on this page are used for the 
-              purpose of comparative advertising, criticism or review. This is a public forum 
-              presenting user opinions on selected products and businesses, and as such the 
-              views expressed do not reflect the opinion of Product_Review.com.</p>
-          </div>
+         
       
-    </footer>
-
+    </div>
+    <Footer/>
     <Cars/>
 
 </>
